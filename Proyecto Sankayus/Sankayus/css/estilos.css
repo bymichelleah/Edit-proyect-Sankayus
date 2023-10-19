@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(42, 187, 42);
+}
+.logogrande{
+    width: 5%;
+    height: 8vh;
+    margin-left: 5rem;
+    border-radius: 50px;
+    margin-top: 0.5rem;
+}
+.logo{
+    background-color: red;
+}
+nav{
+    background-color: rgb(42, 187, 42);
+    width: 60%;
+    height: 10vh;
+    float: right;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+}
+ul a {
+  text-decoration: none;
+  margin-left: 6rem;
+  line-height: 5rem;
+  color: black;
+}
+ul a:hover{
+    background-color:limegreen;
+    width: 20%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+.banner-web .banner{
+    width: 100%;
+    height: 110vh;
+    z-index: 10;
+}
+.banner-div{
+    position: absolute;
+    z-index: 5;
+}
+.h2-banner{
+    font-size: 10rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40rem;
+    margin-top: 20rem;
+
+}
+.h4-banner{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40rem;
+}
+.caja-padre{
+    width: 250px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 40rem;
+    border-radius: 20px;
+    border: inset 3px white;
+}
+.caja-banner{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 4.5rem;
+    line-height: 3rem;
+}
+.cuerpo{
+    width: 100%;
+    height: 20vh;
+}
+.h2-cuerpo{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p-cuerpo{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.cuerpo-2{
+    width: 100%;
+    height: 63vh;
+}
+.h2-c2{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h3-c2{
+    text-align: center;
+    font-size: 2rem;
+}
+.conten-img{
+    width: 100%;
+    height: 50vh; 
+    display:inline-flex;
+}
+.margen .img-sanky{
+   width:80%;
+   height: 30vh;
+   margin-top: 20%;
+   margin-left: 50%;
+}
+h4{
+   text-align: center;
+   margin-top: 1rem;
+   margin-left: 15rem;
+}
+.cuerpo-3{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    text-align: center;
+}
+.c2{
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c3{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.oka{
+    width: 80%;
+    height: 45vh;
+    display: inline-flex;
+}
+.wwe .fotico{
+    width: 80%;
+    height: 40vh;
+    margin-top: 1rem;
+    text-align: center;
+    margin-left: 2rem;
+    border-radius: 60px;
+}
+.pa {
+     margin-left: -2rem;
+}
+.paa{
+    width: 50%;
+    margin-left: 5rem;
+}
+.yacasi{
+    width: 100%;
+    height: 45vh;
+    background-color:white;
+    text-align: center;
+}
+.padre-form{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+form{
+    background-color: whitesmoke;
+    width: 20%;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .banner-web .banner {
+        height: 80vh; /* Reducir la altura en pantallas más pequeñas */
+    }
+
+    .margen .img-sanky {
+        width: 100%; /* Hacer que las imágenes ocupen el 100% del ancho en pantallas pequeñas */
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .cuerpo-3 {
+        height: auto; /* Ajustar la altura automáticamente en pantallas pequeñas */
+    }
+
+    .oka, .wwe .fotico {
+        width: 100%; /* Hacer que estos elementos ocupen el 100% del ancho en pantallas pequeñas */
+        height: auto;
+        margin: 1rem 0;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .paa {
+        width: 100%; /* Hacer que el ancho del elemento sea 100% en pantallas pequeñas */
+        margin-left: 0;
+    }
+}
+
+    
+
+
